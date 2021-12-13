@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XD | Интернет-магазин</title>
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/webfonts/utilities.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+        <!-- Меню навигации -->
+        <div class="header-container">
+            <header class="flex container">
+                <div class="logo">
+                    <a href="index.html"><img src="/img/adobe-xd-svgrepo-com.png" alt="№" height="47px"></a>
+                 </div>
+                <div class="navbar">
+                    <ul class="flex">
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Компьютеры</a></li>
+                        <li><a href="#">Комплектующие</a></li>
+                        <li><a href="#">Собрать</a></li>
+                    </ul>
+                    <!-- Меню для низкого разрешения -->
+                    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                        <i class="fa fa-bars fa-2x"></i>
+                    </a>
+                    <div class="links" id="burger-links">
+                        <a href="#">Акции</a>
+                        <a href="#">Компьютеры</a>
+                        <a href="#">Комплектующие</a>
+                        <a href="#">Собрать</a>
+                    </div>
+    
+                </div>
+                <div class="search-box">
+                    <input type="text" class="search-txt" placeholder="Поиск">
+                    <a href="#" class="search-btn"><i class="fa fa-search" aria-hidden="true"></i></a>
+                </div>
+            </header>
+        </div>
+    
+        <!-- Слоган компании -->
+        <div>
+        <section class="tagline">
+            <h2 data-aos="fade-up"
+            data-aos-anchor-placement="top-center">Лучшие на рынке СНГ</h2>
+        </section>
+        </div>
+        <!-- Почему должны выбрать -->
+        <div>
+        <section class="book">
+            <h2 data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">Станьте владельцем XD PC! </h2>
+            <div class="flex works container">
+                <div>
+                    <h3 data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" class="headline">Большой выбор</h3>
+                    <i class="fas fa-clock icon-size"></i>
+                </div>
+                <div>
+                    <h3 data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" class="headline">Доставка в любую точку мира</h3>
+                    <i class="fas fa-sort-amount-up icon-size"></i>
+                </div>
+                <div>
+                    <h3 data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" class="headline">Полная кастомизация</h3>
+                </div>
+            </div>
+        </section>
+        </div>
+    
+        <!-- Секция доверия компании -->
+        <div class="trust-showcase">
+            <h2 data-aos="fade-up"
+            data-aos-anchor-placement="top-center" class="trust-h2">Вы можете нам доверять!</h2>
+            <h3 data-aos="fade-up"
+            data-aos-anchor-placement="top-center" >И вот почему</h3>
+        </div>
+        <section class="company-trust container grid grid-3">
+            <div class="card">
+                <img data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom" src="./img/20170905074741266199681.jpg" height="250">
+                <h2 data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom">Возврат средств</h2>
+            </div>
+            <div class="card">
+                <img data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom" src="./img/5348024561923326_8e98-e1568986407321.jpg" height="250">
+                <h2 data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom">Удобство</h2>
+            </div>
+            <div class="card">
+                <img data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom" src="./img/hyperdesk_two_motherboard_build_photo_11.jpg" height="250">
+                <h2 data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom">Кастомизация</h2>
+            </div>
+    
+        </section>
+
+        <!-- Закрытые акции -->
+        <section class="closed-off float-clear">
+            <h3>Хотите подписаться на закрытые акции? Это просто!</h3>
+            <form>
+                <div class="form-container">
+                    <input type="email" placeholder="Email">
+                    <input type="submit" placeholder="Подписаться" value="Подписаться">
+                </div>
+            </form>
+        </section>
+    
+        <!-- Подвал сайта -->
+        <footer>
+            <h2 class="test-0-phone">
+                Телефон "8 (800) 555-35-35"
+            </h2>
+        </footer>
+    <!-- Скрипты -->
+        <script src="/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
